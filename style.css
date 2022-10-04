@@ -75,6 +75,7 @@ nav svg {
 }
 .front-page {
     min-height: 100vh;
+    color: white;
 }
 .selling-point {
     margin-top: 25vh;
@@ -157,4 +158,25 @@ margin-top: 1rem;
 .about img {
     width: 100%;
     margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+    body {
+        padding: 10%;
+
+    }
+    .videos {
+        display: flex;
+        gap: 2rem;
+    }
+    .about {
+        display: flex;
+        gap: 5rem;
+        justify-content: space-between;
+    }
+    .about img {
+        width: 50%;
+    }
+    .about h2 {
+        text-align: start;
+    }
 }

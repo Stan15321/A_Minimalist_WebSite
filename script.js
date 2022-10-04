@@ -5,6 +5,8 @@ burger.addEventListener('click', ()=> {
         gsap.to(".links",{x:"100%"});
         gsap.to(".line", {stroke:"white"});
         gsap.set("body", {overflow: "auto"});
+        gsap.set("body", {overflowX: "hidden"});
+        
     }else{
         gsap.to(".links",{x:"0%"});
         gsap.to(".line", {stroke:"black"});
@@ -15,4 +17,23 @@ burger.addEventListener('click', ()=> {
          gsap.set("body", {overflow: "hidden"});
     }
     burger.classList.toggle("active");
+});
+
+const videos = gsap.utils.toArray(".video");
+gsap.set(videos, { opacity: 0 });
+
+videos.forEach((video)=> {
+    ScrollTrigger.create({
+        trigger: video, 
+        start: "top center",
+        end: "bottom center",
+        markers: true,
+        onEnter: () => {
+            gsap.to(video, { opacity: 1});
+            video.play();
+        },
+        onEnterBlack: () => video.play(),
+        onLeave: () => video.pause(),
+        onLeaveBack: () => video.pause(),
+    });
 });
