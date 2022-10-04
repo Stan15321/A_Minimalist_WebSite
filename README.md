@@ -1,9 +1,14 @@
 # Making_Minimalist_WebSite
  
-## It's not a ready projects.
+## Ready project.
 
-## I am going to use:
+## I  used:
 
 ## JavaScript
+For the back-end
 ## CSS
+To style the web page
 ## HTML
+To structure the page
+
+## Preview
