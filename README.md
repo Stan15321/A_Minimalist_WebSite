@@ -1,4 +1,5 @@
 # Making_Minimalist_WebSite
+A simple web site for yoga
  
 ## Ready project.
 
