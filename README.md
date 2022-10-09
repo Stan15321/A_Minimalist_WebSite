@@ -1,9 +1,9 @@
 # Making_A_Minimalist_WebSite
 A simple web site for yoga
  
-## Ready project.
 
-## I  used:
+
+## In this project i used:
 
 ## JavaScript
 For the back-end.
