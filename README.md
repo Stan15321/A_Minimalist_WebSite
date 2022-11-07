@@ -1,4 +1,4 @@
-# Making_A_Minimalist_WebSite
+# A Minimalist WebSite
 A simple web site for yoga
  
 ## In this project i used:
