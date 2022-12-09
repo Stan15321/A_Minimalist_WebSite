@@ -1,13 +1,13 @@
 # A Minimalist WebSite
-A simple web site for yoga
+- A simple web site for yoga
  
-## In this project i used:
+
 ## JavaScript
-For the back-end.
+- For the back-end.
 ## CSS
-To style the web page.
+- To style the web page.
 ## HTML
-To structure the page.
+- To structure the page.
 
 ## Click on the first photo to view the Web Site:
 
