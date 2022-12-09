@@ -1,5 +1,5 @@
 # A Minimalist WebSite
-- A simple web site for yoga
+- A simple web site for yoga.
  
 
 ## JavaScript
