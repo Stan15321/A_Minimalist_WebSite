@@ -1,7 +1,6 @@
-# A Minimalist WebSite
+## A Minimalist WebSite
 - A simple web site for yoga.
  
-
 ## JavaScript
 - For the back-end.
 ## CSS
